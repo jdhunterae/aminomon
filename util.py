@@ -1,5 +1,7 @@
 import json
 
+from models.moves import Move
+
 
 def populate_type_map() -> None:
     """Reads in the data/types.json file and ensures all types have a value for all types"""
@@ -43,3 +45,15 @@ def load_move_data() -> list:
         json_obj = json.load(json_file)
 
     return json_obj["moves"]
+
+
+def generate_moves() -> list:
+    """Generates a list of Move objects from the data/moves.json file"""
+    json_list = load_move_data()
+
+    moves = []
+
+    for move in json_list:
+        moves.append(Move.fromJSON(json_list[move]))
+
+    return moves

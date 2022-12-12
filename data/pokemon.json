@@ -1,0 +1,61 @@
+{
+  "pokemon": {
+    "blastoise": {
+      "attack": 148,
+      "defense": 167,
+      "health": 186,
+      "moves": [
+        "water_pulse",
+        "aqua_tail",
+        "bite",
+        "rapid_spin"
+      ],
+      "name": "Blastoise",
+      "sp_attack": 156,
+      "sp_defense": 172,
+      "speed": 143,
+      "types": [
+        "water",
+        "none"
+      ]
+    },
+    "charizard": {
+      "attack": 149,
+      "defense": 143,
+      "health": 185,
+      "moves": [
+        "flamethrower",
+        "air_slash",
+        "fire_fang",
+        "slash"
+      ],
+      "name": "Charizard",
+      "sp_attack": 177,
+      "sp_defense": 158,
+      "speed": 167,
+      "types": [
+        "fire",
+        "flying"
+      ]
+    },
+    "venusaur": {
+      "attack": 147,
+      "defense": 148,
+      "health": 187,
+      "moves": [
+        "seed_bomb",
+        "sludge_bomb",
+        "double_edge",
+        "razor_edge"
+      ],
+      "name": "Venusaur",
+      "sp_attack": 167,
+      "sp_defense": 167,
+      "speed": 145,
+      "types": [
+        "grass",
+        "poison"
+      ]
+    }
+  }
+}

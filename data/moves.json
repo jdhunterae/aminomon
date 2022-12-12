@@ -1,0 +1,96 @@
+{
+  "moves": {
+    "air_slash": {
+      "form": "special",
+      "name": "Air Slash",
+      "power": 75,
+      "accuracy": 95,
+      "points": 15,
+      "type": "flying"
+    },
+    "aqua_tail": {
+      "form": "physical",
+      "name": "Aqua Tail",
+      "power": 90,
+      "accuracy": 90,
+      "points": 10,
+      "type": "water"
+    },
+    "bite": {
+      "form": "physical",
+      "name": "Bite",
+      "power": 60,
+      "accuracy": 100,
+      "points": 25,
+      "type": "dark"
+    },
+    "double_edge": {
+      "form": "physical",
+      "name": "Double-Edge",
+      "power": 90,
+      "accuracy": 100,
+      "points": 15,
+      "type": "normal"
+    },
+    "fire_fang": {
+      "form": "physical",
+      "name": "Fire Fang",
+      "power": 65,
+      "accuracy": 95,
+      "points": 15,
+      "type": "fire"
+    },
+    "flamethrower": {
+      "form": "special",
+      "name": "Flamethrower",
+      "power": 90,
+      "accuracy": 100,
+      "points": 15,
+      "type": "fire"
+    },
+    "rapid_spin": {
+      "form": "physical",
+      "name": "Rapid Spin",
+      "power": 50,
+      "accuracy": 100,
+      "points": 40,
+      "type": "normal"
+    },
+    "razor_leaf": {
+      "form": "physical",
+      "name": "Razor Leaf",
+      "power": 90,
+      "accuracy": 95,
+      "points": 25,
+      "type": "grass"
+    },
+    "seed_bomb": {
+      "form": "physical",
+      "name": "Seed Bomb",
+      "power": 80,
+      "accuracy": 100,
+      "points": 15,
+      "type": "grass"
+    },
+    "slash": {
+      "form": "physical",
+      "name": "Slash",
+      "power": 70,
+      "accuracy": 100,
+      "points": 20,
+      "type": "normal"
+    },
+    "sludge_bomb": {
+      "form": "special",
+      "name": "Sludge Bomb",
+      "power": 90,
+      "type": "poison"
+    },
+    "water_pulse": {
+      "form": "special",
+      "name": "Water Pulse",
+      "power": 60,
+      "type": "water"
+    }
+  }
+}

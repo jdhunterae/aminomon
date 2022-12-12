@@ -1,83 +1,83 @@
 {
   "moves": {
     "air_slash": {
+      "accuracy": 95,
       "form": "special",
       "name": "Air Slash",
-      "power": 75,
-      "accuracy": 95,
       "points": 15,
+      "power": 75,
       "type": "flying"
     },
     "aqua_tail": {
+      "accuracy": 90,
       "form": "physical",
       "name": "Aqua Tail",
-      "power": 90,
-      "accuracy": 90,
       "points": 10,
+      "power": 90,
       "type": "water"
     },
     "bite": {
+      "accuracy": 100,
       "form": "physical",
       "name": "Bite",
-      "power": 60,
-      "accuracy": 100,
       "points": 25,
+      "power": 60,
       "type": "dark"
     },
     "double_edge": {
+      "accuracy": 100,
       "form": "physical",
       "name": "Double-Edge",
-      "power": 90,
-      "accuracy": 100,
       "points": 15,
+      "power": 90,
       "type": "normal"
     },
     "fire_fang": {
+      "accuracy": 95,
       "form": "physical",
       "name": "Fire Fang",
-      "power": 65,
-      "accuracy": 95,
       "points": 15,
+      "power": 65,
       "type": "fire"
     },
     "flamethrower": {
+      "accuracy": 100,
       "form": "special",
       "name": "Flamethrower",
-      "power": 90,
-      "accuracy": 100,
       "points": 15,
+      "power": 90,
       "type": "fire"
     },
     "rapid_spin": {
+      "accuracy": 100,
       "form": "physical",
       "name": "Rapid Spin",
-      "power": 50,
-      "accuracy": 100,
       "points": 40,
+      "power": 50,
       "type": "normal"
     },
     "razor_leaf": {
+      "accuracy": 95,
       "form": "physical",
       "name": "Razor Leaf",
-      "power": 90,
-      "accuracy": 95,
       "points": 25,
+      "power": 90,
       "type": "grass"
     },
     "seed_bomb": {
+      "accuracy": 100,
       "form": "physical",
       "name": "Seed Bomb",
-      "power": 80,
-      "accuracy": 100,
       "points": 15,
+      "power": 80,
       "type": "grass"
     },
     "slash": {
+      "accuracy": 100,
       "form": "physical",
       "name": "Slash",
-      "power": 70,
-      "accuracy": 100,
       "points": 20,
+      "power": 70,
       "type": "normal"
     },
     "sludge_bomb": {

@@ -1,7 +1,8 @@
 import json
 
 
-def populate_type_map():
+def populate_type_map() -> None:
+    """Reads in the data/types.json file and ensures all types have a value for all types"""
     json_obj = load_type_map()
     type_list = json_obj["all"]
 
@@ -14,7 +15,8 @@ def populate_type_map():
         json.dump(json_obj, outfile, indent=4)
 
 
-def load_type_map():
+def load_type_map() -> list:
+    """Reads the data/types.json file and returns a list of json objects"""
     json_obj = {}
 
     with open('data/types.json', 'r') as json_file:
@@ -23,23 +25,21 @@ def load_type_map():
     return json_obj
 
 
-def load_pokemon_data():
+def load_pokemon_data() -> list:
+    """Reads the data/pokemon.json file and returns a list of json objects"""
     json_obj = {}
 
-    with open('data/moves.json', 'r') as json_file:
+    with open('data/pokemon.json', 'r') as json_file:
         json_obj = json.load(json_file)
 
     return json_obj["pokemon"]
 
 
-def load_move_data():
+def load_move_data() -> list:
+    """Reads the data/moves.json file and returns a list of json objects"""
     json_obj = {}
 
     with open('data/moves.json', 'r') as json_file:
         json_obj = json.load(json_file)
 
     return json_obj["moves"]
-
-
-if __name__ == '__main__':
-    populate_type_map()
